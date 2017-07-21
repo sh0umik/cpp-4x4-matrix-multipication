@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="MatrixMulti" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/fahim/Projects/CPP/MatrixMulti" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/fahim/Projects/CPP/MatrixMulti" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/fahim/Projects/CPP/MatrixMulti" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="MatrixMulti">
+         <Option output="/home/fahim/Projects/CPP/MatrixMulti/MatrixMulti" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fahim/Projects/CPP/MatrixMulti" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 MatrixMulti" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="MatrixMulti/fast">
+         <Option output="/home/fahim/Projects/CPP/MatrixMulti/MatrixMulti" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fahim/Projects/CPP/MatrixMulti" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 MatrixMulti/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fahim/Projects/CPP/MatrixMulti/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/fahim/Projects/CPP/MatrixMulti/CMatrix.cpp">
+         <Option target="MatrixMulti"/>
+      </Unit>
+      <Unit filename="/home/fahim/Projects/CPP/MatrixMulti/CMatrix.h">
+         <Option target="MatrixMulti"/>
+      </Unit>
+      <Unit filename="/home/fahim/Projects/CPP/MatrixMulti/MatrixMultiplication2.cpp">
+         <Option target="MatrixMulti"/>
+      </Unit>
+      <Unit filename="/home/fahim/Projects/CPP/MatrixMulti/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
